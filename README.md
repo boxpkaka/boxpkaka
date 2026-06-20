@@ -20,42 +20,42 @@
 训练与建模:
 
 <p>
-  <img src="https://img.shields.io/badge/PyTorch-2f2f2f?style=flat-square&logo=pytorch&logoColor=white" alt="PyTorch" />
-  <img src="https://img.shields.io/badge/Hugging%20Face-2f2f2f?style=flat-square&logo=huggingface&logoColor=white" alt="Hugging Face" />
-  <img src="https://img.shields.io/badge/Transformers-2f2f2f?style=flat-square" alt="Transformers" />
-  <img src="https://img.shields.io/badge/DeepSpeed-2f2f2f?style=flat-square" alt="DeepSpeed" />
-  <img src="https://img.shields.io/badge/PEFT%20%2F%20LoRA-2f2f2f?style=flat-square" alt="PEFT / LoRA" />
+  <img src="https://img.shields.io/badge/PyTorch-24283b?style=for-the-badge&logo=pytorch&logoColor=7aa2f7&labelColor=1a1b27" alt="PyTorch" />
+  <img src="https://img.shields.io/badge/Hugging%20Face-24283b?style=for-the-badge&logo=huggingface&logoColor=7aa2f7&labelColor=1a1b27" alt="Hugging Face" />
+  <img src="https://img.shields.io/badge/Transformers-24283b?style=for-the-badge&labelColor=1a1b27" alt="Transformers" />
+  <img src="https://img.shields.io/badge/DeepSpeed-24283b?style=for-the-badge&labelColor=1a1b27" alt="DeepSpeed" />
+  <img src="https://img.shields.io/badge/PEFT%20%2F%20LoRA-24283b?style=for-the-badge&labelColor=1a1b27" alt="PEFT / LoRA" />
 </p>
 
 推理与部署:
 
 <p>
-  <img src="https://img.shields.io/badge/vLLM-2f2f2f?style=flat-square" alt="vLLM" />
-  <img src="https://img.shields.io/badge/ONNX%20Runtime-2f2f2f?style=flat-square&logo=onnx&logoColor=white" alt="ONNX Runtime" />
-  <img src="https://img.shields.io/badge/C%20%2F%20C%2B%2B%20runtime-2f2f2f?style=flat-square" alt="C / C++ runtime" />
+  <img src="https://img.shields.io/badge/vLLM-24283b?style=for-the-badge&labelColor=1a1b27" alt="vLLM" />
+  <img src="https://img.shields.io/badge/ONNX%20Runtime-24283b?style=for-the-badge&logo=onnx&logoColor=7aa2f7&labelColor=1a1b27" alt="ONNX Runtime" />
+  <img src="https://img.shields.io/badge/C%20%2F%20C%2B%2B%20runtime-24283b?style=for-the-badge&labelColor=1a1b27" alt="C / C++ runtime" />
 </p>
 
 语音与音频:
 
 <p>
-  <img src="https://img.shields.io/badge/Whisper-2f2f2f?style=flat-square" alt="Whisper" />
-  <img src="https://img.shields.io/badge/FunASR-2f2f2f?style=flat-square" alt="FunASR" />
-  <img src="https://img.shields.io/badge/WeNet-2f2f2f?style=flat-square" alt="WeNet" />
-  <img src="https://img.shields.io/badge/k2-2f2f2f?style=flat-square" alt="k2" />
-  <img src="https://img.shields.io/badge/Sherpa-2f2f2f?style=flat-square" alt="Sherpa" />
+  <img src="https://img.shields.io/badge/Whisper-24283b?style=for-the-badge&labelColor=1a1b27" alt="Whisper" />
+  <img src="https://img.shields.io/badge/FunASR-24283b?style=for-the-badge&labelColor=1a1b27" alt="FunASR" />
+  <img src="https://img.shields.io/badge/WeNet-24283b?style=for-the-badge&labelColor=1a1b27" alt="WeNet" />
+  <img src="https://img.shields.io/badge/k2-24283b?style=for-the-badge&labelColor=1a1b27" alt="k2" />
+  <img src="https://img.shields.io/badge/Sherpa-24283b?style=for-the-badge&labelColor=1a1b27" alt="Sherpa" />
 </p>
 
 服务化:
 
 <p>
-  <img src="https://img.shields.io/badge/FastAPI-2f2f2f?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI" />
-  <img src="https://img.shields.io/badge/WebSocket-2f2f2f?style=flat-square" alt="WebSocket" />
-  <img src="https://img.shields.io/badge/uv-2f2f2f?style=flat-square" alt="uv" />
-  <img src="https://img.shields.io/badge/Ruff-2f2f2f?style=flat-square" alt="Ruff" />
+  <img src="https://img.shields.io/badge/FastAPI-24283b?style=for-the-badge&logo=fastapi&logoColor=7aa2f7&labelColor=1a1b27" alt="FastAPI" />
+  <img src="https://img.shields.io/badge/WebSocket-24283b?style=for-the-badge&labelColor=1a1b27" alt="WebSocket" />
+  <img src="https://img.shields.io/badge/uv-24283b?style=for-the-badge&labelColor=1a1b27" alt="uv" />
+  <img src="https://img.shields.io/badge/Ruff-24283b?style=for-the-badge&labelColor=1a1b27" alt="Ruff" />
 </p>
 
 ## 语言概览 / Language Profile
 
 <p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=boxpkaka&layout=compact&langs_count=8&hide_border=true&theme=transparent" alt="Top Languages" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=boxpkaka&layout=compact&langs_count=8&hide_border=true&theme=tokyonight" alt="Top Languages" />
 </p>
