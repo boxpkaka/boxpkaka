@@ -2,22 +2,31 @@
 
 <h1 align="center">Boxpkaka</h1>
 
-<p align="center">ASR · SpeechLLM · On-device inference</p>
+<p align="center">🎙️ ASR · 🧠 SpeechLLM · 🚀 On-device inference</p>
+
+<p align="center">
+  Building speech systems around recognition, evaluation, model serving, and efficient deployment.
+</p>
 
 ---
 
-## 方向 / Focus
+## 🎯 Focus
 
-- Automatic Speech Recognition
-- Speech language models
-- Machine translation and simultaneous interpretation
-- On-device inference and deployment
+- 🎙️ Automatic Speech Recognition: streaming recognition, decoding, and evaluation
+- 🧠 Speech language models: speech-text modeling, instruction tuning, and inference
+- 🌐 Machine translation and simultaneous interpretation
+- 🚀 On-device inference: runtime optimization, deployment, and latency control
 
-## 技术栈 / Tech Stack
+## 🧭 Engineering Notes
 
-语言: Python 为主, C / C++ 与 Swift 为辅。
+- ⚙️ Build measurable pipelines for data preparation, evaluation, and benchmarks
+- 📦 Keep deployment paths explicit: model export, runtime integration, and service interfaces
+- 🔍 Treat latency, stability, and error analysis as first-class engineering constraints
+- 🧪 Use public experiments to validate system-level assumptions
 
-训练与建模:
+## 🧩 Stack
+
+🧠 Modeling & Training:
 
 <p>
   <a href="https://github.com/pytorch/pytorch"><img src="https://img.shields.io/badge/PyTorch-24283b?style=for-the-badge&logo=pytorch&logoColor=7aa2f7&labelColor=1a1b27" alt="PyTorch" /></a>
@@ -27,7 +36,7 @@
   <a href="https://github.com/huggingface/peft"><img src="https://img.shields.io/badge/PEFT%20%2F%20LoRA-24283b?style=for-the-badge&labelColor=1a1b27" alt="PEFT / LoRA" /></a>
 </p>
 
-推理与部署:
+🚀 Inference & Runtime:
 
 <p>
   <a href="https://github.com/vllm-project/vllm"><img src="https://img.shields.io/badge/vLLM-24283b?style=for-the-badge&labelColor=1a1b27" alt="vLLM" /></a>
@@ -35,7 +44,7 @@
   <a href="https://github.com/boxpkaka/audiollm-server"><img src="https://img.shields.io/badge/C%20%2F%20C%2B%2B%20runtime-24283b?style=for-the-badge&labelColor=1a1b27" alt="C / C++ runtime" /></a>
 </p>
 
-语音与音频:
+🎧 Speech & Audio:
 
 <p>
   <a href="https://github.com/boxpkaka/whisper-evaluation"><img src="https://img.shields.io/badge/Whisper-24283b?style=for-the-badge&labelColor=1a1b27" alt="Whisper" /></a>
@@ -45,7 +54,7 @@
   <a href="https://github.com/k2-fsa/sherpa-onnx"><img src="https://img.shields.io/badge/Sherpa-24283b?style=for-the-badge&labelColor=1a1b27" alt="Sherpa" /></a>
 </p>
 
-服务化:
+🛰️ Serving & Tooling:
 
 <p>
   <a href="https://github.com/fastapi/fastapi"><img src="https://img.shields.io/badge/FastAPI-24283b?style=for-the-badge&logo=fastapi&logoColor=7aa2f7&labelColor=1a1b27" alt="FastAPI" /></a>
@@ -54,7 +63,13 @@
   <a href="https://github.com/astral-sh/ruff"><img src="https://img.shields.io/badge/Ruff-24283b?style=for-the-badge&labelColor=1a1b27" alt="Ruff" /></a>
 </p>
 
-## 语言概览 / Language Profile
+## 🔗 Public Project Signals
+
+- 🎧 [whisper-evaluation](https://github.com/boxpkaka/whisper-evaluation): ASR evaluation and comparison workflows
+- 🛰️ [audiollm-server](https://github.com/boxpkaka/audiollm-server): audio model serving and streaming interfaces
+- 📄 [SPformer](https://github.com/boxpkaka/SPformer): speech model exploration
+
+## 📊 Language Profile
 
 <p align="center">
   <a href="https://github.com/boxpkaka?tab=repositories"><img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=boxpkaka&layout=compact&langs_count=8&hide_border=true&theme=tokyonight" alt="Top Languages" /></a>
