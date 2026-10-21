@@ -52,7 +52,7 @@
 <p>
   <a href="https://github.com/vllm-project/vllm"><img src="https://img.shields.io/badge/vLLM-24283b?style=for-the-badge&labelColor=1a1b27" alt="vLLM" /></a>
   <a href="https://github.com/microsoft/onnxruntime"><img src="https://img.shields.io/badge/ONNX%20Runtime-24283b?style=for-the-badge&logo=onnx&logoColor=7aa2f7&labelColor=1a1b27" alt="ONNX Runtime" /></a>
-  <a href="https://github.com/boxpkaka/audiollm-server"><img src="https://img.shields.io/badge/C%20%2F%20C%2B%2B%20runtime-24283b?style=for-the-badge&labelColor=1a1b27" alt="C / C++ runtime" /></a>
+  <img src="https://img.shields.io/badge/C%20%2F%20C%2B%2B%20runtime-24283b?style=for-the-badge&labelColor=1a1b27" alt="C / C++ runtime" />
 </p>
 
 **Speech & Audio**
@@ -75,7 +75,7 @@
 
 <p>
   <a href="https://github.com/fastapi/fastapi"><img src="https://img.shields.io/badge/FastAPI-24283b?style=for-the-badge&logo=fastapi&logoColor=7aa2f7&labelColor=1a1b27" alt="FastAPI" /></a>
-  <a href="https://github.com/boxpkaka/audiollm-server"><img src="https://img.shields.io/badge/WebSocket-24283b?style=for-the-badge&labelColor=1a1b27" alt="WebSocket" /></a>
+  <img src="https://img.shields.io/badge/WebSocket-24283b?style=for-the-badge&labelColor=1a1b27" alt="WebSocket" />
   <a href="https://github.com/astral-sh/uv"><img src="https://img.shields.io/badge/uv-24283b?style=for-the-badge&labelColor=1a1b27" alt="uv" /></a>
   <a href="https://github.com/astral-sh/ruff"><img src="https://img.shields.io/badge/Ruff-24283b?style=for-the-badge&labelColor=1a1b27" alt="Ruff" /></a>
 </p>
