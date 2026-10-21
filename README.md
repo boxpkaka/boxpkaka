@@ -14,12 +14,14 @@
 
 - 🎙️ Automatic Speech Recognition: streaming recognition, decoding, and evaluation
 - 🧠 Speech language models: speech-text modeling, instruction tuning, and inference
+- 🗣️ Speaker-aware recognition: target-speaker ASR, speaker diarization, and hotword biasing
 - 🌐 Machine translation and simultaneous interpretation
 - 🚀 On-device inference: runtime optimization, deployment, and latency control
 
 ## 🧭 Engineering Notes
 
 - ⚙️ Build measurable pipelines for data preparation, evaluation, and benchmarks
+- 🗂️ Version datasets and benchmarks as declarations, so training and evaluation resolve exact data versions
 - 📦 Keep deployment paths explicit: model export, runtime integration, and service interfaces
 - 🔍 Treat latency, stability, and error analysis as first-class engineering constraints
 - 🧪 Use public experiments to validate system-level assumptions
@@ -33,6 +35,7 @@
   <a href="https://github.com/huggingface/huggingface_hub"><img src="https://img.shields.io/badge/Hugging%20Face-24283b?style=for-the-badge&logo=huggingface&logoColor=7aa2f7&labelColor=1a1b27" alt="Hugging Face" /></a>
   <a href="https://github.com/huggingface/transformers"><img src="https://img.shields.io/badge/Transformers-24283b?style=for-the-badge&labelColor=1a1b27" alt="Transformers" /></a>
   <a href="https://github.com/microsoft/DeepSpeed"><img src="https://img.shields.io/badge/DeepSpeed-24283b?style=for-the-badge&labelColor=1a1b27" alt="DeepSpeed" /></a>
+  <a href="https://github.com/modelscope/ms-swift"><img src="https://img.shields.io/badge/ms--swift-24283b?style=for-the-badge&labelColor=1a1b27" alt="ms-swift" /></a>
   <a href="https://github.com/huggingface/peft"><img src="https://img.shields.io/badge/PEFT%20%2F%20LoRA-24283b?style=for-the-badge&labelColor=1a1b27" alt="PEFT / LoRA" /></a>
 </p>
 
@@ -54,6 +57,13 @@
   <a href="https://github.com/k2-fsa/sherpa-onnx"><img src="https://img.shields.io/badge/Sherpa-24283b?style=for-the-badge&labelColor=1a1b27" alt="Sherpa" /></a>
 </p>
 
+🗂️ Data & Evaluation:
+
+<p>
+  <a href="https://github.com/amphionspace/audio-data-contract"><img src="https://img.shields.io/badge/Data%20Catalog-24283b?style=for-the-badge&labelColor=1a1b27" alt="Data Catalog" /></a>
+  <a href="https://github.com/lance-format/lance"><img src="https://img.shields.io/badge/Lance-24283b?style=for-the-badge&labelColor=1a1b27" alt="Lance" /></a>
+</p>
+
 🛰️ Serving & Tooling:
 
 <p>
@@ -65,8 +75,13 @@
 
 ## 🔗 Public Project Signals
 
-- 🎧 [whisper-evaluation](https://github.com/boxpkaka/whisper-evaluation): ASR evaluation and comparison workflows
+- 🧠 [open-audio-llm](https://github.com/amphionspace/open-audio-llm): Audio-LLM post-training and deployment, covering target-speaker and hotword ASR
+- 🗂️ [audio-data-contract](https://github.com/amphionspace/audio-data-contract): versioned speech datasets, benchmarks, and processing lineage
+- 📱 [AmphionRuntime](https://github.com/amphionspace/AmphionRuntime): on-device and server ASR/TTS runtime, including speaker diarization on Android and HarmonyOS
 - 🛰️ [audiollm-server](https://github.com/boxpkaka/audiollm-server): audio model serving and streaming interfaces
+- 🧮 [meetnote-qnn-spike](https://github.com/boxpkaka/meetnote-qnn-spike): QNN/HTP quantization, numerical alignment, and release tooling for on-device LLMs
+- 📄 [amphion-asr-technical-report](https://github.com/boxpkaka/amphion-asr-technical-report): AmphionASR technical report
+- 🎧 [whisper-evaluation](https://github.com/boxpkaka/whisper-evaluation): ASR evaluation and comparison workflows
 - 📄 [SPformer](https://github.com/boxpkaka/SPformer): speech model exploration
 
 ## 📊 Language Profile
