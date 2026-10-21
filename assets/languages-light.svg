@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="830" height="240" viewBox="0 0 830 240" role="img" aria-labelledby="title desc">
+<title id="title">Languages</title>
+<desc id="desc">Share of code by language: Python 72.2%, Kotlin 15.0%, C++ 5.3%, Shell 2.7%, JavaScript 1.3%, Swift 1.3%, TypeScript 1.2%, Other 1.0%.</desc>
+<style>
+text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
+.title { font-size: 20px; font-weight: 600; fill: #1f2335; }
+.sub { font-size: 14px; fill: #6a7090; }
+.label { font-size: 15px; fill: #1f2335; }
+.value { font-size: 15px; font-weight: 600; fill: #1f2335; }
+.pct { font-size: 14px; fill: #6a7090; }
+.foot { font-size: 12px; fill: #6a7090; }
+</style>
+<rect x="0.5" y="0.5" width="829" height="239" rx="12" fill="#ffffff" stroke="#d0d7de"/>
+<text class="title" x="32" y="48">Languages</text>
+<text class="sub" x="32" y="72">By code size, across 10 public repositories I own or merge into</text>
+<clipPath id="bar"><rect x="32" y="96" width="766" height="16" rx="8"/></clipPath>
+<g clip-path="url(#bar)"><rect x="32.0" y="96" width="543.2" height="16" fill="#4c71c1"/><rect x="577.2" y="96" width="112.6" height="16" fill="#b25816"/><rect x="691.9" y="96" width="40.2" height="16" fill="#008779"/><rect x="734.1" y="96" width="20.1" height="16" fill="#9c6900"/><rect x="756.2" y="96" width="9.7" height="16" fill="#bb407a"/><rect x="767.9" y="96" width="9.5" height="16" fill="#58841a"/><rect x="779.3" y="96" width="9.1" height="16" fill="#8160b7"/><rect x="790.4" y="96" width="7.6" height="16" fill="#8a90a8"/></g>
+<circle cx="37.0" cy="145" r="5" fill="#4c71c1"/><text class="label" x="52.0" y="150">Python<tspan class="pct" dx="8">72.2%</tspan></text>
+<circle cx="228.5" cy="145" r="5" fill="#b25816"/><text class="label" x="243.5" y="150">Kotlin<tspan class="pct" dx="8">15.0%</tspan></text>
+<circle cx="420.0" cy="145" r="5" fill="#008779"/><text class="label" x="435.0" y="150">C++<tspan class="pct" dx="8">5.3%</tspan></text>
+<circle cx="611.5" cy="145" r="5" fill="#9c6900"/><text class="label" x="626.5" y="150">Shell<tspan class="pct" dx="8">2.7%</tspan></text>
+<circle cx="37.0" cy="179" r="5" fill="#bb407a"/><text class="label" x="52.0" y="184">JavaScript<tspan class="pct" dx="8">1.3%</tspan></text>
+<circle cx="228.5" cy="179" r="5" fill="#58841a"/><text class="label" x="243.5" y="184">Swift<tspan class="pct" dx="8">1.3%</tspan></text>
+<circle cx="420.0" cy="179" r="5" fill="#8160b7"/><text class="label" x="435.0" y="184">TypeScript<tspan class="pct" dx="8">1.2%</tspan></text>
+<circle cx="611.5" cy="179" r="5" fill="#8a90a8"/><text class="label" x="626.5" y="184">Other<tspan class="pct" dx="8">1.0%</tspan></text>
+<text class="foot" x="32" y="220">Updated 2026-10-20</text>
+</svg>

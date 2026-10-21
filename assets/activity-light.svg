@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="830" height="296" viewBox="0 0 830 296" role="img" aria-labelledby="title desc">
+<title id="title">Merged pull requests</title>
+<desc id="desc">406 merged pull requests in public repositories since Jun 2026. By month: 2026-06 29, 2026-07 71, 2026-08 60, 2026-09 84, 2026-10 162.</desc>
+<style>
+text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
+.title { font-size: 20px; font-weight: 600; fill: #1f2335; }
+.sub { font-size: 14px; fill: #6a7090; }
+.label { font-size: 15px; fill: #1f2335; }
+.value { font-size: 15px; font-weight: 600; fill: #1f2335; }
+.pct { font-size: 14px; fill: #6a7090; }
+.foot { font-size: 12px; fill: #6a7090; }
+.axis { font-size: 13px; fill: #6a7090; }
+.hero { font-size: 64px; font-weight: 700; fill: #1f2335; }
+.stat { font-size: 16px; fill: #444b6a; }
+</style>
+<rect x="0.5" y="0.5" width="829" height="295" rx="12" fill="#ffffff" stroke="#d0d7de"/>
+<text class="title" x="32" y="48">Merged pull requests</text>
+<text class="sub" x="32" y="72">By month, public repositories only</text>
+<path d="M32,214.5 H408" stroke="#d0d7de" stroke-width="1"/>
+<path d="M48,214 V200.1 a4,4 0 0 1 4,-4 h16 a4,4 0 0 1 4,4 V214 z" fill="#4c71c1"/><text class="value" x="60.0" y="188.1" text-anchor="middle">29</text><text class="axis" x="60.0" y="238" text-anchor="middle">Jun</text>
+<path d="M128,214 V174.2 a4,4 0 0 1 4,-4 h16 a4,4 0 0 1 4,4 V214 z" fill="#4c71c1"/><text class="value" x="140.0" y="162.2" text-anchor="middle">71</text><text class="axis" x="140.0" y="238" text-anchor="middle">Jul</text>
+<path d="M208,214 V181.0 a4,4 0 0 1 4,-4 h16 a4,4 0 0 1 4,4 V214 z" fill="#4c71c1"/><text class="value" x="220.0" y="169.0" text-anchor="middle">60</text><text class="axis" x="220.0" y="238" text-anchor="middle">Aug</text>
+<path d="M288,214 V166.1 a4,4 0 0 1 4,-4 h16 a4,4 0 0 1 4,4 V214 z" fill="#4c71c1"/><text class="value" x="300.0" y="154.1" text-anchor="middle">84</text><text class="axis" x="300.0" y="238" text-anchor="middle">Sep</text>
+<path d="M368,214 V118.0 a4,4 0 0 1 4,-4 h16 a4,4 0 0 1 4,4 V214 z" fill="#4c71c1"/><text class="value" x="380.0" y="106.0" text-anchor="middle">162</text><text class="axis" x="380.0" y="238" text-anchor="middle">Oct</text>
+<text class="hero" x="590" y="152">406</text>
+<text class="stat" x="590" y="180">merged pull requests</text>
+<text class="sub" x="590" y="204">since Jun 2026</text>
+<text class="foot" x="32" y="276">Updated 2026-10-20</text>
+</svg>

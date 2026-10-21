@@ -1,34 +1,42 @@
 <!-- GitHub Profile README — github.com/boxpkaka -->
 
-<h1 align="center">Boxpkaka</h1>
-
-<p align="center">🎙️ ASR · 🧠 SpeechLLM · 🚀 On-device inference</p>
+<p align="center">
+  <img src="assets/banner-dark.svg#gh-dark-mode-only" alt="Boxpkaka — speech recognition, from model to device: ASR, SpeechLLM, on-device inference" width="830" />
+  <img src="assets/banner-light.svg#gh-light-mode-only" alt="Boxpkaka — speech recognition, from model to device: ASR, SpeechLLM, on-device inference" width="830" />
+</p>
 
 <p align="center">
   Building speech systems around recognition, evaluation, model serving, and efficient deployment.
 </p>
 
----
+## <img src="assets/icons/target.svg" width="24" height="24" align="absmiddle" alt="" /> Focus
 
-## 🎯 Focus
+<table>
+  <tr>
+    <td width="50%" valign="top"><b><img src="assets/icons/mic.svg" width="20" height="20" align="absmiddle" alt="" /> Speech recognition</b><br />Streaming recognition, decoding, and evaluation</td>
+    <td width="50%" valign="top"><b><img src="assets/icons/chat.svg" width="20" height="20" align="absmiddle" alt="" /> Speech language models</b><br />Speech-text modeling, instruction tuning, and inference</td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top"><b><img src="assets/icons/speaker.svg" width="20" height="20" align="absmiddle" alt="" /> Speaker-aware recognition</b><br />Target-speaker ASR, speaker diarization, and hotword biasing</td>
+    <td width="50%" valign="top"><b><img src="assets/icons/translate.svg" width="20" height="20" align="absmiddle" alt="" /> Simultaneous speech translation</b><br />Streaming speech translation, machine translation, and simultaneous interpretation</td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top"><b><img src="assets/icons/chip.svg" width="20" height="20" align="absmiddle" alt="" /> On-device inference</b><br />Runtime optimization, deployment, and latency control</td>
+    <td width="50%" valign="top"><b><img src="assets/icons/database.svg" width="20" height="20" align="absmiddle" alt="" /> Speech data</b><br />Versioned datasets, benchmarks, and processing lineage</td>
+  </tr>
+</table>
 
-- 🎙️ Automatic Speech Recognition: streaming recognition, decoding, and evaluation
-- 🧠 Speech language models: speech-text modeling, instruction tuning, and inference
-- 🗣️ Speaker-aware recognition: target-speaker ASR, speaker diarization, and hotword biasing
-- 🌐 Machine translation and simultaneous interpretation
-- 🚀 On-device inference: runtime optimization, deployment, and latency control
+## <img src="assets/icons/compass.svg" width="24" height="24" align="absmiddle" alt="" /> Engineering Notes
 
-## 🧭 Engineering Notes
+- Build measurable pipelines for data preparation, evaluation, and benchmarks
+- Version datasets and benchmarks as declarations, so training and evaluation resolve exact data versions
+- Keep deployment paths explicit: model export, runtime integration, and service interfaces
+- Treat latency, stability, and error analysis as first-class engineering constraints
+- Use public experiments to validate system-level assumptions
 
-- ⚙️ Build measurable pipelines for data preparation, evaluation, and benchmarks
-- 🗂️ Version datasets and benchmarks as declarations, so training and evaluation resolve exact data versions
-- 📦 Keep deployment paths explicit: model export, runtime integration, and service interfaces
-- 🔍 Treat latency, stability, and error analysis as first-class engineering constraints
-- 🧪 Use public experiments to validate system-level assumptions
+## <img src="assets/icons/layers.svg" width="24" height="24" align="absmiddle" alt="" /> Stack
 
-## 🧩 Stack
-
-🧠 Modeling & Training:
+**Modeling & Training**
 
 <p>
   <a href="https://github.com/pytorch/pytorch"><img src="https://img.shields.io/badge/PyTorch-24283b?style=for-the-badge&logo=pytorch&logoColor=7aa2f7&labelColor=1a1b27" alt="PyTorch" /></a>
@@ -39,7 +47,7 @@
   <a href="https://github.com/huggingface/peft"><img src="https://img.shields.io/badge/PEFT%20%2F%20LoRA-24283b?style=for-the-badge&labelColor=1a1b27" alt="PEFT / LoRA" /></a>
 </p>
 
-🚀 Inference & Runtime:
+**Inference & Runtime**
 
 <p>
   <a href="https://github.com/vllm-project/vllm"><img src="https://img.shields.io/badge/vLLM-24283b?style=for-the-badge&labelColor=1a1b27" alt="vLLM" /></a>
@@ -47,24 +55,23 @@
   <a href="https://github.com/boxpkaka/audiollm-server"><img src="https://img.shields.io/badge/C%20%2F%20C%2B%2B%20runtime-24283b?style=for-the-badge&labelColor=1a1b27" alt="C / C++ runtime" /></a>
 </p>
 
-🎧 Speech & Audio:
+**Speech & Audio**
 
 <p>
-  <a href="https://github.com/boxpkaka/whisper-evaluation"><img src="https://img.shields.io/badge/Whisper-24283b?style=for-the-badge&labelColor=1a1b27" alt="Whisper" /></a>
+  <a href="https://github.com/openai/whisper"><img src="https://img.shields.io/badge/Whisper-24283b?style=for-the-badge&labelColor=1a1b27" alt="Whisper" /></a>
   <a href="https://github.com/modelscope/FunASR"><img src="https://img.shields.io/badge/FunASR-24283b?style=for-the-badge&labelColor=1a1b27" alt="FunASR" /></a>
   <a href="https://github.com/wenet-e2e/wenet"><img src="https://img.shields.io/badge/WeNet-24283b?style=for-the-badge&labelColor=1a1b27" alt="WeNet" /></a>
   <a href="https://github.com/k2-fsa/k2"><img src="https://img.shields.io/badge/k2-24283b?style=for-the-badge&labelColor=1a1b27" alt="k2" /></a>
   <a href="https://github.com/k2-fsa/sherpa-onnx"><img src="https://img.shields.io/badge/Sherpa-24283b?style=for-the-badge&labelColor=1a1b27" alt="Sherpa" /></a>
 </p>
 
-🗂️ Data & Evaluation:
+**Data & Evaluation**
 
 <p>
-  <a href="https://github.com/amphionspace/audio-data-contract"><img src="https://img.shields.io/badge/Data%20Catalog-24283b?style=for-the-badge&labelColor=1a1b27" alt="Data Catalog" /></a>
   <a href="https://github.com/lance-format/lance"><img src="https://img.shields.io/badge/Lance-24283b?style=for-the-badge&labelColor=1a1b27" alt="Lance" /></a>
 </p>
 
-🛰️ Serving & Tooling:
+**Serving & Tooling**
 
 <p>
   <a href="https://github.com/fastapi/fastapi"><img src="https://img.shields.io/badge/FastAPI-24283b?style=for-the-badge&logo=fastapi&logoColor=7aa2f7&labelColor=1a1b27" alt="FastAPI" /></a>
@@ -73,19 +80,16 @@
   <a href="https://github.com/astral-sh/ruff"><img src="https://img.shields.io/badge/Ruff-24283b?style=for-the-badge&labelColor=1a1b27" alt="Ruff" /></a>
 </p>
 
-## 🔗 Public Project Signals
+## <img src="assets/icons/chart.svg" width="24" height="24" align="absmiddle" alt="" /> Public Work
 
-- 🧠 [open-audio-llm](https://github.com/amphionspace/open-audio-llm): Audio-LLM post-training and deployment, covering target-speaker and hotword ASR
-- 🗂️ [audio-data-contract](https://github.com/amphionspace/audio-data-contract): versioned speech datasets, benchmarks, and processing lineage
-- 📱 [AmphionRuntime](https://github.com/amphionspace/AmphionRuntime): on-device and server ASR/TTS runtime, including speaker diarization on Android and HarmonyOS
-- 🛰️ [audiollm-server](https://github.com/boxpkaka/audiollm-server): audio model serving and streaming interfaces
-- 🧮 [meetnote-qnn-spike](https://github.com/boxpkaka/meetnote-qnn-spike): QNN/HTP quantization, numerical alignment, and release tooling for on-device LLMs
-- 📄 [amphion-asr-technical-report](https://github.com/boxpkaka/amphion-asr-technical-report): AmphionASR technical report
-- 🎧 [whisper-evaluation](https://github.com/boxpkaka/whisper-evaluation): ASR evaluation and comparison workflows
-- 📄 [SPformer](https://github.com/boxpkaka/SPformer): speech model exploration
-
-## 📊 Language Profile
+Counted from public repositories I own, plus organization repositories I merge pull requests into.
 
 <p align="center">
-  <a href="https://github.com/boxpkaka?tab=repositories"><img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=boxpkaka&layout=compact&langs_count=8&hide_border=true&theme=tokyonight" alt="Top Languages" /></a>
+  <img src="assets/activity-dark.svg#gh-dark-mode-only" alt="Merged pull requests by month" width="830" />
+  <img src="assets/activity-light.svg#gh-light-mode-only" alt="Merged pull requests by month" width="830" />
+</p>
+
+<p align="center">
+  <img src="assets/languages-dark.svg#gh-dark-mode-only" alt="Share of code by language" width="830" />
+  <img src="assets/languages-light.svg#gh-light-mode-only" alt="Share of code by language" width="830" />
 </p>
